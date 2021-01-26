@@ -9,10 +9,9 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: ide-0.2
-  image_name: myco/ide
 
 deploy:
-  context: myco/DEV
+  context: alpha/DEV
   replicas: 1
   port:
   - 80
