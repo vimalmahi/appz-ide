@@ -16,6 +16,12 @@ deploy:
   port:
   - 80
   - { port : 8080, protocol: TCP, name : webserver }
+  
+volumes:
+- claim: home
+  mount: /appz/home
+  name: home
+  size: 5Gi 
 
 properties:
   CS50_IDE_TYPE: offline
