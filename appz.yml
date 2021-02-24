@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: psganni@ecloudcontrol.com
+  notify: appzdev@cloudbourne.co
 
 build:
   version: 0.2
@@ -12,7 +12,7 @@ build:
 
 deploy:
   type: statefulset
-  context: psganni/DEV
+  context: alpha/DEV
   replicas: 1
   port:
   - 80
@@ -25,5 +25,5 @@ volumes:
   size: 5Gi 
 
 properties:
-  IDE_PASSWORD_HASH: "appz:$2y$10$FaSko7CkI/J5xW3E4RFWFeAOeE9RwD6qv0aGFnKSHHSRMDRXU8Sei"
+  IDE_PASSWORD_HASH: "appz:$2y$10$UlYiRlcQw4Doscdodv3vruSeGc/YfKH/tc1F1/HOgPeTMUMsg84Bm"
   revision : 15
