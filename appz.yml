@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: krishnan.rejith@gmail.com
+  notify: appzdev@cloudbourne.co
 
 build:
   version: 0.2
@@ -12,7 +12,7 @@ build:
 
 deploy:
   type: statefulset
-  context: rejith/DEV
+  context: alpha/DEV
   replicas: 1
   port:
   - 80
