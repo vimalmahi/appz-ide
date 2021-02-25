@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: appzdev@cloudbourne.co
+  notify: vimal.vasant@gmail.com
 
 build:
   version: 0.2
@@ -25,5 +25,5 @@ volumes:
   size: 5Gi 
 
 properties:
-  IDE_PASSWORD_HASH: "appz:$2y$10$UlYiRlcQw4Doscdodv3vruSeGc/YfKH/tc1F1/HOgPeTMUMsg84Bm"
+  IDE_PASSWORD_HASH: "vimalm:{SHA}XQfhuA5EiiE7OSBJiIER4XeaUts="
   revision : 15
